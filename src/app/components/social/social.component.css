@@ -1,0 +1,20 @@
+.whatsapp:hover {
+    color: green;
+}
+
+a {
+    color: gray;
+
+}
+
+.linkedin:hover {
+    color: rgb(168, 163, 220);
+}
+
+.instagram:hover {
+    color: rgb(239, 138, 7);
+}
+
+.github:hover {
+    color: black;
+}
