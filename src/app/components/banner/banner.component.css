@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import url(//fonts.googleapis.com/css?family=Lato:700);
 
 body {
     margin: 0;
@@ -6,8 +6,8 @@ body {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-weight: bolder;
-    letter-spacing:12px;
+    font-weight: 700;
+    letter-spacing: 2px;
     font-size: 80px;
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 .flex {
-    /*Flexbox for containers*/
+    /*Flexbox para contenedores*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ p {
     background-color: white;
 }
 
-/* Animation */
+/* Animacion*/
 
 .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
@@ -101,7 +101,7 @@ p {
     }
 }
 
-/*Shrinking for mobile*/
+/*Celulares*/
 @media (max-width: 768px) {
     .waves {
         height: 40px;
